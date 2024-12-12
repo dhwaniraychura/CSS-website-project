@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color-400:red ;
+    --primary-color-400-rgb:255, 0, 0;
+    --secondary-color-200:#fcb302;
+    --secondary-color-200-rgb:252, 179, 2;
+    --white:white;
+    --white-rgb:rgb(255, 255, 255);
+    --black:black;
+    --black-rgb:rgb(0, 0, 0);
+    --lh:2;
+    --fw:600;
+    --gw: 15px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+    height: auto;
+    display: block;
+}
+ol,ul{
+    list-style: none;
+    padding-left: 0;
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+    background-image: url('../images/main/header-body.jpg');
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+    align-items: center;
+}
+.col-1{
+    width:8.3333%;
+}
+.col-2{
+    width:16.6666%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33.3333%;
+}
+.col-5{
+    width:41.6666%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width: 58.3333%;
+}
+.col-8{
+    width: 66.6666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333%;
+}
+.col-11{
+    width: 91.6666%;
+}
+.col-12{
+    width: 100%;
+}
+nav ul{
+    display:flex;
+}
+nav ul li a{
+    padding:45px 12px;
+    color:black;
+}
+.menu{
+  font-family: 'Barlow';
+    justify-items:center;
+}
+nav ul li a:hover{
+     color:var(--primary-color-400);
+}
+.phone-background{
+    width:50px;
+}
+.contact-info{
+    width:50px;
+    height: 50px;
+    background:var(--primary-color-400);
+    border-radius: 50%;
+    color:var(--white);
+    text-align:center;
+    font-size:25px;
+    line-height:var(--lh);
+}
+.number{
+    font-family: 'Roboto';
+    font-weight:var(--fw);
+    font-size: 16px;
+    text-align:right;
+    color:#5f5f5f;
+}
+.number a{
+    color:var(--primary-color-400);
+    font-family: 'Roboto';
+    font-weight: 500;
+    transition-duration: 0.5s;
+}
+.number a:hover{
+    color:var(--secondary-color-200);
+    transition-duration: 0.5s;
+}
+.cart-background{
+    width:50px;
+}
+.cart{
+    width:50px;
+    height:50px;
+    color:var(--white);
+    background: var(--secondary-color-200);
+    border-radius:50%;
+    text-align:center;
+    font-size:25px;
+    line-height:var(--lh);
+}
+.cart:hover{
+    cursor: pointer;
+    
+}
+.search{
+    text-align:center;
+    font-size:25px;
+}
+.search:hover{
+    cursor: pointer;
+}
+

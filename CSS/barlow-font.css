@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('url../extra/transfonter.org-20241211-131642/Barlow-Black.woff2') format('woff2'),
+        url('url../extra/transfonter.org-20241211-131642/Barlow-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src:url('url../extra/transfonter.org-20241211-131642/Barlow-Bold.woff2') format('woff2'),
+       url('url../extra/transfonter.org-20241211-131642/Barlow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src:url('url../extra/transfonter.org-20241211-131642/Barlow-BlackItalic.woff2') format('woff2'),
+    url('../extra/transfonter.org-20241211-131642/Barlow-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-Black.woff2') format('woff2'),
+    url('../extra/transfonter.org-20241211-131642/Barlow-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src:url('../extra/transfonter.org-20241211-131642/Barlow-ExtraBoldItalic.woff2') format('woff2'),
+    url('../extra/transfonter.org-20241211-131642/Barlow-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-LightItalic.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-Light.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-ExtraBold.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-ExtraLight.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-Medium.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-Italic.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-MediumItalic.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-ExtraLightItalic.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-Regular.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-SemiBoldItalic.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-Thin.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-ThinItalic.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../extra/transfonter.org-20241211-131642/Barlow-SemiBold.woff2') format('woff2'),
+        url('../extra/transfonter.org-20241211-131642/Barlow-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
